@@ -1,0 +1,118 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+}
+.text{
+    float: left;
+}
+h1{
+    color: white;
+    margin-left: 250px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+p{
+    color: gray;
+    margin-left: 250px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+.body {
+    width: 450px;
+    height: 600px;
+    border: 2px solid black;
+    margin: auto;
+    border-radius: 20px;
+    background-color: #31322f;
+    margin-top: 50px;
+    margin-right: 250px;
+}
+
+.name{
+    display: block;
+    margin: 20px;
+    color: white;
+}
+
+.name input{
+    width: 410px;
+    margin: auto;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.content-name{
+    display: block;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.content-email{
+    display: block;
+    margin-left:5px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.email input{
+    width: 410px;
+    margin: auto;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.message textarea{
+    width: 410px;
+    margin: auto;
+    height: 150px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.content-message{
+    display: block;
+    margin-left: 5px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.submit{
+    width: 310px;
+    border: 1px solid white;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+    margin-top: 150px;
+    border-radius: 20px;
+    background-color: white;
+}
+.btn{
+    color: black;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.submit:active{
+    transform: translate(100px,52px);
+    -webkit-transform: translate(0px,5px);
+    border-bottom: 1px solid;
+}
+
+.email{
+    margin: 20px;
+}
+
+.message{
+    margin: 20px;
+}
+
+
+
