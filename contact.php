@@ -7,6 +7,7 @@
 <div class="body">
 
 <form action="process_contact.php" method="post">
+
     <div class="name">
     <label for="name" class="lbl-name">
         <span class="content-name">Username</span>
@@ -30,6 +31,7 @@
 
     <div class="submit">
     <a href="#" class="btn">Submit</a>
+
     </div>
 </form>
 </div>
